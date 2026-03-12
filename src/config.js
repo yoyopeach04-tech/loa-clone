@@ -1,13 +1,11 @@
- import BootScene from './scenes/BootScene.js';
-import MenuScene from './scenes/MenuScene.js';
 import BattleScene from './scenes/BattleScene.js';
 
 const config = {
   type: Phaser.AUTO,
   width: 480,
-  height: 854,        // Mobile ratio
+  height: 854,
   backgroundColor: '#1a0a2e',
-  scene: [BootScene, MenuScene, BattleScene],
+  scene: [BattleScene],
   parent: 'game-container'
 };
 
